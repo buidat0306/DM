@@ -16,6 +16,10 @@
         <servlet-name>Delete</servlet-name>
         <servlet-class>controller.Delete</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NewServlet</servlet-name>
+        <servlet-class>folder.NewServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>InsertController</servlet-name>
         <url-pattern>/InsertController</url-pattern>
@@ -31,5 +35,9 @@
     <servlet-mapping>
         <servlet-name>Delete</servlet-name>
         <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewServlet</servlet-name>
+        <url-pattern>/NewServlet</url-pattern>
     </servlet-mapping>
 </web-app>
